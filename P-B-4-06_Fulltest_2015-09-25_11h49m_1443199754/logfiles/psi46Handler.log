@@ -1,0 +1,533 @@
+#
+#--------LOG from Fri 25 Sep 2015 at 11h:49m:18s ---------
+#
+ConfigDir: "../config/"
+open TB1
+exec string  = /home/silpix5/pxar/bin/pXar -d /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//000_IV_p17/ -r  IV.root
+>>> Aquire Testboard 1 <<<
+psi46@TB1 >> # On branch psi46/master
+psi46@TB1 >> # Changes to be committed:
+psi46@TB1 >> #   (use "git reset HEAD <file>..." to unstage)
+psi46@TB1 >> #
+psi46@TB1 >> #	modified:   ../.gitignore
+psi46@TB1 >> #	modified:   ../config/elComandante.conf.default
+psi46@TB1 >> #	modified:   ../coolingBox/coolingBoxClient.py
+psi46@TB1 >> #	modified:   el_comandante.py
+psi46@TB1 >> #
+psi46@TB1 >> # Unmerged paths:
+psi46@TB1 >> #   (use "git reset HEAD <file>..." to unstage)
+psi46@TB1 >> #   (use "git add/rm <file>..." as appropriate to mark resolution)
+psi46@TB1 >> #
+psi46@TB1 >> #	both modified:      ../keithleyClient/keithleyInterface.py
+psi46@TB1 >> #
+psi46@TB1 >> # Untracked files:
+psi46@TB1 >> #   (use "git add <file>..." to include in what will be committed)
+psi46@TB1 >> #
+psi46@TB1 >> #	../DATA/
+psi46@TB1 >> #	../config/elComandante.conf
+psi46@TB1 >> #	../config/elComandante.ini
+psi46@TB1 >> #	../coolingBox/CoolingBox.log
+psi46@TB1 >> #	.history
+psi46@TB1 >> #	pxar_timing.log
+psi46@TB1 >> #	../subserverDATA/
+psi46@TB1 >> #	../subsystem/bridges/subserver/single_bridge_ow
+psi46@TB1 >> #	../subsystem/bridges/subserver/single_bridge_tw
+psi46@TB1 >> #	../subsystem/client
+psi46@TB1 >> #	../subsystem/clients/subprotocol/subprotocol
+psi46@TB1 >> #	../subsystem/cmdint/test2
+psi46@TB1 >> #	../subsystem/libsubsystem.a
+psi46@TB1 >> #	../subsystem/rxclient
+psi46@TB1 >> #	../subsystem/subserver
+psi46@TB1 >> #	../subsystem/txclient
+trying to close TB...
+>>> Release Testboard 1 <<<
+done, failed = False
+:Test 000_IV_p17 finished in TB1
+CLOSE TB 1 HERE
+:Test 000_IV_p17 finished in TB1
+got command to execute /home/silpix5/elComandante/config/tests/Pretest in TB1  -- 1:Pretest
+executing psi46 /home/silpix5/elComandante/config/tests/Pretest in TB1
+>>> Aquire Testboard 1 <<<
+psi46@TB1 >> # On branch psi46/master
+psi46@TB1 >> # Changes to be committed:
+psi46@TB1 >> #   (use "git reset HEAD <file>..." to unstage)
+psi46@TB1 >> #
+psi46@TB1 >> #	modified:   ../.gitignore
+psi46@TB1 >> #	modified:   ../config/elComandante.conf.default
+psi46@TB1 >> #	modified:   ../coolingBox/coolingBoxClient.py
+psi46@TB1 >> #	modified:   el_comandante.py
+psi46@TB1 >> #
+psi46@TB1 >> # Unmerged paths:
+psi46@TB1 >> #   (use "git reset HEAD <file>..." to unstage)
+psi46@TB1 >> #   (use "git add/rm <file>..." as appropriate to mark resolution)
+psi46@TB1 >> #
+psi46@TB1 >> #	both modified:      ../keithleyClient/keithleyInterface.py
+psi46@TB1 >> #
+psi46@TB1 >> # Untracked files:
+psi46@TB1 >> #   (use "git add <file>..." to include in what will be committed)
+psi46@TB1 >> #
+psi46@TB1 >> #	../DATA/
+psi46@TB1 >> #	../config/elComandante.conf
+psi46@TB1 >> #	../config/elComandante.ini
+psi46@TB1 >> #	../coolingBox/CoolingBox.log
+psi46@TB1 >> #	.history
+psi46@TB1 >> #	pxar_timing.log
+psi46@TB1 >> #	../subserverDATA/
+psi46@TB1 >> #	../subsystem/bridges/subserver/single_bridge_ow
+psi46@TB1 >> #	../subsystem/bridges/subserver/single_bridge_tw
+psi46@TB1 >> #	../subsystem/client
+psi46@TB1 >> #	../subsystem/clients/subprotocol/subprotocol
+psi46@TB1 >> #	../subsystem/cmdint/test2
+psi46@TB1 >> #	../subsystem/libsubsystem.a
+psi46@TB1 >> #	../subsystem/rxclient
+psi46@TB1 >> #	../subsystem/subserver
+psi46@TB1 >> #	../subsystem/txclient
+>>> Release Testboard 1 <<<
+:Test 001_Pretest_p17 finished in TB1
+:Test 001_Pretest_p17 finished in TB1
+got command to execute /home/silpix5/elComandante/config/tests/Fulltest in TB1  -- 2:Fulltest
+executing psi46 /home/silpix5/elComandante/config/tests/Fulltest in TB1
+>>> Aquire Testboard 1 <<<
+psi46@TB1 >> # On branch psi46/master
+psi46@TB1 >> # Changes to be committed:
+psi46@TB1 >> #   (use "git reset HEAD <file>..." to unstage)
+psi46@TB1 >> #
+psi46@TB1 >> #	modified:   ../.gitignore
+psi46@TB1 >> #	modified:   ../config/elComandante.conf.default
+psi46@TB1 >> #	modified:   ../coolingBox/coolingBoxClient.py
+psi46@TB1 >> #	modified:   el_comandante.py
+psi46@TB1 >> #
+psi46@TB1 >> # Unmerged paths:
+psi46@TB1 >> #   (use "git reset HEAD <file>..." to unstage)
+psi46@TB1 >> #   (use "git add/rm <file>..." as appropriate to mark resolution)
+psi46@TB1 >> #
+psi46@TB1 >> #	both modified:      ../keithleyClient/keithleyInterface.py
+psi46@TB1 >> #
+psi46@TB1 >> # Untracked files:
+psi46@TB1 >> #   (use "git add <file>..." to include in what will be committed)
+psi46@TB1 >> #
+psi46@TB1 >> #	../DATA/
+psi46@TB1 >> #	../config/elComandante.conf
+psi46@TB1 >> #	../config/elComandante.ini
+psi46@TB1 >> #	../coolingBox/CoolingBox.log
+psi46@TB1 >> #	.history
+psi46@TB1 >> #	pxar_timing.log
+psi46@TB1 >> #	../subserverDATA/
+psi46@TB1 >> #	../subsystem/bridges/subserver/single_bridge_ow
+psi46@TB1 >> #	../subsystem/bridges/subserver/single_bridge_tw
+psi46@TB1 >> #	../subsystem/client
+psi46@TB1 >> #	../subsystem/clients/subprotocol/subprotocol
+psi46@TB1 >> #	../subsystem/cmdint/test2
+psi46@TB1 >> #	../subsystem/libsubsystem.a
+psi46@TB1 >> #	../subsystem/rxclient
+psi46@TB1 >> #	../subsystem/subserver
+psi46@TB1 >> #	../subsystem/txclient
+psi46@TB1 >>  FCN=5.52372 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=1.56617e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.20799e+01   7.45258e+00   3.45896e-04  -1.66904e-10
+psi46@TB1 >>    2  p1           6.14407e+01   2.96392e+00   1.37564e-04   1.46884e-09
+psi46@TB1 >>  FCN=4.63245 FROM MIGRAD    STATUS=CONVERGED      46 CALLS          47 TOTAL
+psi46@TB1 >>                      EDM=6.07488e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.60281e+01   7.45259e+00   3.21401e-04   5.94144e-10
+psi46@TB1 >>    2  p1           6.19205e+01   2.96392e+00   1.27822e-04   5.21140e-09
+psi46@TB1 >>  FCN=2.83707 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=6.59086e-16    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.39519e+01   7.45283e+00   2.65276e-04   4.18516e-12
+psi46@TB1 >>    2  p1           6.55021e+01   2.96402e+00   1.05501e-04   1.22596e-08
+psi46@TB1 >>  FCN=5.66475 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=4.88086e-18    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.46915e+01   7.45265e+00   3.49615e-04   6.98622e-11
+psi46@TB1 >>    2  p1           6.42587e+01   2.96395e+00   1.39043e-04   1.22965e-09
+psi46@TB1 >>  FCN=1.66854e-24 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+psi46@TB1 >>                      EDM=3.28807e-24    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.00000e+00   7.45264e+00   1.35425e-04  -4.88498e-14
+psi46@TB1 >>    2  p1          -3.82960e-12   2.96395e+00   5.38590e-05  -9.87930e-13
+psi46@TB1 >>  FCN=3.39316 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=2.08191e-18    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.88074e+01   7.45274e+00   2.83849e-04  -7.82264e-12
+psi46@TB1 >>    2  p1           6.20084e+01   2.96398e+00   1.12888e-04  -7.08102e-10
+psi46@TB1 >>  FCN=1.66854e-24 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+psi46@TB1 >>                      EDM=3.28807e-24    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.00000e+00   7.45264e+00   1.35425e-04  -4.88498e-14
+psi46@TB1 >>    2  p1          -3.82960e-12   2.96395e+00   5.38590e-05  -9.87930e-13
+psi46@TB1 >>  FCN=4.4008 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=3.1105e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.41908e+00   7.45258e+00   3.14722e-04   6.34973e-11
+psi46@TB1 >>    2  p1           6.48263e+01   2.96392e+00   1.25166e-04   2.82066e-09
+psi46@TB1 >>  FCN=1.66854e-24 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+psi46@TB1 >>                      EDM=3.28807e-24    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.00000e+00   7.45264e+00   1.35425e-04  -4.88498e-14
+psi46@TB1 >>    2  p1          -3.82960e-12   2.96395e+00   5.38590e-05  -9.87930e-13
+psi46@TB1 >>  FCN=1.66854e-24 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+psi46@TB1 >>                      EDM=3.28807e-24    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.00000e+00   7.45264e+00   1.35425e-04  -4.88498e-14
+psi46@TB1 >>    2  p1          -3.82960e-12   2.96395e+00   5.38590e-05  -9.87930e-13
+psi46@TB1 >>  FCN=6.00027 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=3.42865e-16    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.37951e+00   7.45264e+00   3.58307e-04  -1.23941e-11
+psi46@TB1 >>    2  p1           6.34951e+01   2.96394e+00   1.42500e-04   8.80386e-09
+psi46@TB1 >>  FCN=4.90931 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=4.85727e-18    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.36593e+00   7.45261e+00   3.29205e-04  -4.72141e-11
+psi46@TB1 >>    2  p1           6.21841e+01   2.96393e+00   1.30926e-04  -1.17021e-09
+psi46@TB1 >>  FCN=5.53561 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=2.43817e-18    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.41843e+01   7.45260e+00   3.46212e-04   1.28271e-12
+psi46@TB1 >>    2  p1           6.25625e+01   2.96393e+00   1.37690e-04  -7.41817e-10
+psi46@TB1 >>  FCN=1.66854e-24 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+psi46@TB1 >>                      EDM=3.28807e-24    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.00000e+00   7.45264e+00   1.35425e-04  -4.88498e-14
+psi46@TB1 >>    2  p1          -3.82960e-12   2.96395e+00   5.38590e-05  -9.87930e-13
+psi46@TB1 >>  FCN=0.949047 FROM MIGRAD    STATUS=CONVERGED      44 CALLS          45 TOTAL
+psi46@TB1 >>                      EDM=7.79652e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.49123e+01   7.45252e+00   1.89064e-04  -7.92747e-11
+psi46@TB1 >>    2  p1           6.41708e+01   2.96390e+00   7.51916e-05  -6.20438e-10
+psi46@TB1 >>  FCN=1.66854e-24 FROM MIGRAD    STATUS=CONVERGED      42 CALLS          43 TOTAL
+psi46@TB1 >>                      EDM=3.28807e-24    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.00000e+00   7.45264e+00   1.35425e-04  -4.88498e-14
+psi46@TB1 >>    2  p1          -3.82960e-12   2.96395e+00   5.38590e-05  -9.87930e-13
+psi46@TB1 >>  FCN=6.22246 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.79594e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.77423e+01   4.83122e+00   3.63949e-04  -3.02486e-08
+psi46@TB1 >>    2  p1           6.14678e+01   2.96395e+00   2.23282e-04  -4.84300e-08
+psi46@TB1 >>  FCN=2.91114 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=1.72678e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.44744e+01   4.83122e+00   2.67824e-04  -1.85670e-08
+psi46@TB1 >>    2  p1           6.50831e+01   2.96394e+00   1.64310e-04  -3.11695e-08
+psi46@TB1 >>  FCN=7.28017 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=2.77071e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           2.13544e+01   4.83112e+00   3.89689e-04  -2.37549e-08
+psi46@TB1 >>    2  p1           6.43060e+01   2.96388e+00   2.39074e-04  -3.98257e-08
+psi46@TB1 >>  FCN=4.33113 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=1.92572e-16    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.79248e+01   4.83121e+00   3.12686e-04  -6.95990e-08
+psi46@TB1 >>    2  p1           6.51845e+01   2.96394e+00   1.91832e-04  -1.14453e-07
+psi46@TB1 >>  FCN=1.52822e-19 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.05644e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.00000e+00   4.83122e+00   1.35425e-04   2.81784e-09
+psi46@TB1 >>    2  p1           3.32276e-11   2.96395e+00   8.30829e-05   4.59305e-09
+psi46@TB1 >>  FCN=1.69449 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=4.58585e-18    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.53968e+01   4.83118e+00   2.22298e-04  -1.04356e-08
+psi46@TB1 >>    2  p1           6.56508e+01   2.96392e+00   1.36380e-04  -1.72827e-08
+psi46@TB1 >>  FCN=1.52822e-19 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.05644e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.00000e+00   4.83122e+00   1.35425e-04   2.81784e-09
+psi46@TB1 >>    2  p1           3.32276e-11   2.96395e+00   8.30829e-05   4.59305e-09
+psi46@TB1 >>  FCN=2.80822 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=1.22835e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.49032e+01   4.83122e+00   2.64277e-04  -1.78416e-08
+psi46@TB1 >>    2  p1           6.48196e+01   2.96395e+00   1.62133e-04  -2.91296e-08
+psi46@TB1 >>  FCN=1.52822e-19 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.05644e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.00000e+00   4.83122e+00   1.35425e-04   2.81784e-09
+psi46@TB1 >>    2  p1           3.32276e-11   2.96395e+00   8.30829e-05   4.59305e-09
+psi46@TB1 >>  FCN=1.52822e-19 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.05644e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.00000e+00   4.83122e+00   1.35425e-04   2.81784e-09
+psi46@TB1 >>    2  p1           3.32276e-11   2.96395e+00   8.30829e-05   4.59305e-09
+psi46@TB1 >>  FCN=4.35674 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.61568e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           2.01496e+01   4.83121e+00   3.13436e-04  -3.06605e-08
+psi46@TB1 >>    2  p1           6.08393e+01   2.96394e+00   1.92292e-04  -4.98841e-08
+psi46@TB1 >>  FCN=2.03642 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=8.67254e-18    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.83924e+01   4.83129e+00   2.35982e-04   1.26650e-08
+psi46@TB1 >>    2  p1           5.99338e+01   2.96399e+00   1.44775e-04   2.13648e-08
+psi46@TB1 >>  FCN=3.91965 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=4.75187e-18    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           2.18637e+01   4.83122e+00   3.00376e-04   1.10735e-08
+psi46@TB1 >>    2  p1           6.10150e+01   2.96395e+00   1.84280e-04   1.81101e-08
+psi46@TB1 >>  FCN=1.52822e-19 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.05644e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.00000e+00   4.83122e+00   1.35425e-04   2.81784e-09
+psi46@TB1 >>    2  p1           3.32276e-11   2.96395e+00   8.30829e-05   4.59305e-09
+psi46@TB1 >>  FCN=2.41087 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.45182e-17    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.71001e+01   4.83129e+00   2.50110e-04   2.99495e-08
+psi46@TB1 >>    2  p1           6.56440e+01   2.96399e+00   1.53442e-04   4.88032e-08
+psi46@TB1 >>  FCN=1.52822e-19 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=3.05644e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           9.00000e+00   4.83122e+00   1.35425e-04   2.81784e-09
+psi46@TB1 >>    2  p1           3.32276e-11   2.96395e+00   8.30829e-05   4.59305e-09
+psi46@TB1 >>  FCN=12.9333 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=2.30974e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.08427e+01   5.89611e-01   5.76365e-04  -5.47055e-10
+psi46@TB1 >>    2  p1           7.14667e-01   4.40385e-03   4.30492e-06  -9.07795e-08
+psi46@TB1 >>  FCN=0.928894 FROM MIGRAD    STATUS=CONVERGED      65 CALLS          66 TOTAL
+psi46@TB1 >>                      EDM=1.22416e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.53740e+00   7.92862e-01   2.14449e-04  -2.97683e-10
+psi46@TB1 >>    2  p1           1.84801e-01   1.63412e-02   1.60174e-06  -1.69818e-08
+psi46@TB1 >>    3  p2          -1.31515e-04   6.96310e-05   8.71643e-09  -3.02507e-06
+psi46@TB1 >>  FCN=21.9879 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=8.14198e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           6.81321e+00   5.89611e-01   7.40320e-04  -2.45943e-09
+psi46@TB1 >>    2  p1           6.64485e-01   4.40385e-03   5.52951e-06  -4.81875e-08
+psi46@TB1 >>  FCN=0.74497 FROM MIGRAD    STATUS=CONVERGED      65 CALLS          66 TOTAL
+psi46@TB1 >>                      EDM=1.52522e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.35669e+00   7.92862e-01   2.03969e-04   3.87821e-10
+psi46@TB1 >>    2  p1           1.69872e-01   1.63412e-02   1.52346e-06   7.05066e-08
+psi46@TB1 >>    3  p2          -1.26061e-04   6.96310e-05   1.05159e-08   1.35665e-05
+psi46@TB1 >>  FCN=12.097 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+psi46@TB1 >>                      EDM=5.96474e-21    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.90861e+00   5.89611e-01   5.58799e-04   1.50997e-10
+psi46@TB1 >>    2  p1           7.28242e-01   4.40386e-03   4.17372e-06   3.93685e-08
+psi46@TB1 >>  FCN=1.34805 FROM MIGRAD    STATUS=CONVERGED      59 CALLS          60 TOTAL
+psi46@TB1 >>                      EDM=2.18416e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.68563e+00   7.92862e-01   2.36605e-04  -2.01769e-09
+psi46@TB1 >>    2  p1           1.93829e-01   1.63412e-02   1.76722e-06  -2.64799e-07
+psi46@TB1 >>    3  p2          -1.65455e-04   6.96311e-05   1.17074e-08  -4.53291e-05
+psi46@TB1 >>  FCN=17.1879 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=6.88837e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           6.20921e+00   5.89611e-01   6.58508e-04   5.39510e-11
+psi46@TB1 >>    2  p1           6.72485e-01   4.40386e-03   4.91845e-06   9.02904e-08
+psi46@TB1 >>  FCN=0.406712 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+psi46@TB1 >>                      EDM=1.03755e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.93146e+00   7.92862e-01   1.83136e-04   1.20564e-09
+psi46@TB1 >>    2  p1           1.82144e-01   1.63412e-02   1.36785e-06   1.87695e-07
+psi46@TB1 >>    3  p2          -1.41212e-04   6.96311e-05   7.44367e-09   3.47333e-05
+psi46@TB1 >>  FCN=1.78238e-23 FROM MIGRAD    STATUS=CONVERGED      31 CALLS          32 TOTAL
+psi46@TB1 >>                      EDM=3.5656e-23    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.20000e+01   5.89611e-01   1.54408e-04   2.58531e-11
+psi46@TB1 >>    2  p1           4.64906e-15   4.40386e-03   1.15329e-06   3.40169e-09
+psi46@TB1 >>  FCN=0.74497 FROM MIGRAD    STATUS=CONVERGED      65 CALLS          66 TOTAL
+psi46@TB1 >>                      EDM=1.52522e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.35669e+00   7.92862e-01   2.03969e-04   3.87821e-10
+psi46@TB1 >>    2  p1           1.69872e-01   1.63412e-02   1.52346e-06   7.05066e-08
+psi46@TB1 >>    3  p2          -1.26061e-04   6.96310e-05   1.05159e-08   1.35665e-05
+psi46@TB1 >>  FCN=12.497 FROM MIGRAD    STATUS=CONVERGED      37 CALLS          38 TOTAL
+psi46@TB1 >>                      EDM=7.50158e-21    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           6.52461e+00   5.89611e-01   5.67268e-04  -3.44457e-10
+psi46@TB1 >>    2  p1           6.96242e-01   4.40385e-03   4.23697e-06  -2.62032e-08
+psi46@TB1 >>  FCN=1.64429 FROM MIGRAD    STATUS=CONVERGED      59 CALLS          60 TOTAL
+psi46@TB1 >>                      EDM=2.15804e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.48944e+00   7.92862e-01   2.51087e-04   1.80846e-09
+psi46@TB1 >>    2  p1           1.78915e-01   1.63412e-02   1.87539e-06   2.53078e-07
+psi46@TB1 >>    3  p2          -1.36364e-04   6.96311e-05   1.10188e-08   4.69024e-05
+psi46@TB1 >>  FCN=1.78238e-23 FROM MIGRAD    STATUS=CONVERGED      31 CALLS          32 TOTAL
+psi46@TB1 >>                      EDM=3.5656e-23    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.20000e+01   5.89611e-01   1.54408e-04   2.58531e-11
+psi46@TB1 >>    2  p1           4.64906e-15   4.40386e-03   1.15329e-06   3.40169e-09
+psi46@TB1 >>  FCN=0.86247 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+psi46@TB1 >>                      EDM=6.87901e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.73999e+00   7.92862e-01   2.10724e-04   1.10114e-09
+psi46@TB1 >>    2  p1           1.86915e-01   1.63412e-02   1.57392e-06   1.53422e-07
+psi46@TB1 >>    3  p2          -1.60606e-04   6.96311e-05   8.56504e-09   2.62162e-05
+psi46@TB1 >>  FCN=16.7515 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+psi46@TB1 >>                      EDM=5.68917e-22    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.36424e+00   5.89611e-01   6.50560e-04  -1.36525e-11
+psi46@TB1 >>    2  p1           6.89697e-01   4.40386e-03   4.85909e-06  -9.13934e-09
+psi46@TB1 >>  FCN=0.778833 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+psi46@TB1 >>                      EDM=2.91345e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.62434e+00   7.92862e-01   2.05939e-04  -2.01760e-09
+psi46@TB1 >>    2  p1           2.00035e-01   1.63412e-02   1.53817e-06  -3.21914e-07
+psi46@TB1 >>    3  p2          -1.65455e-04   6.96311e-05   8.37052e-09  -5.83594e-05
+psi46@TB1 >>  FCN=1.78238e-23 FROM MIGRAD    STATUS=CONVERGED      31 CALLS          32 TOTAL
+psi46@TB1 >>                      EDM=3.5656e-23    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.20000e+01   5.89611e-01   1.54408e-04   2.58531e-11
+psi46@TB1 >>    2  p1           4.64906e-15   4.40386e-03   1.15329e-06   3.40169e-09
+psi46@TB1 >>  FCN=0.800485 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+psi46@TB1 >>                      EDM=1.45689e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.51976e+00   7.92862e-01   2.07188e-04   1.55933e-09
+psi46@TB1 >>    2  p1           2.11030e-01   1.63412e-02   1.54751e-06   2.25990e-07
+psi46@TB1 >>    3  p2          -2.06061e-04   6.96310e-05   8.42130e-09   3.90232e-05
+psi46@TB1 >>  FCN=1.78238e-23 FROM MIGRAD    STATUS=CONVERGED      31 CALLS          32 TOTAL
+psi46@TB1 >>                      EDM=3.5656e-23    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.20000e+01   5.89611e-01   1.54408e-04   2.58531e-11
+psi46@TB1 >>    2  p1           4.64906e-15   4.40386e-03   1.15329e-06   3.40169e-09
+psi46@TB1 >>  FCN=1.27758 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+psi46@TB1 >>                      EDM=1.66901e-19    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.57431e+00   7.92862e-01   2.33027e-04   8.59965e-10
+psi46@TB1 >>    2  p1           2.03748e-01   1.63412e-02   1.74050e-06   1.67442e-07
+psi46@TB1 >>    3  p2          -1.72121e-04   6.96310e-05   1.22013e-08   2.54777e-05
+psi46@TB1 >>  FCN=13.5879 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+psi46@TB1 >>                      EDM=1.73333e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.29612e+00   5.89611e-01   5.89747e-04   5.57232e-10
+psi46@TB1 >>    2  p1           7.16848e-01   4.40386e-03   4.40487e-06   7.66214e-08
+psi46@TB1 >>  FCN=0.717742 FROM MIGRAD    STATUS=CONVERGED      65 CALLS          66 TOTAL
+psi46@TB1 >>                      EDM=2.25877e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.53775e+00   7.92862e-01   2.02371e-04  -2.30415e-10
+psi46@TB1 >>    2  p1           1.98678e-01   1.63412e-02   1.51153e-06  -6.61053e-08
+psi46@TB1 >>    3  p2          -1.65455e-04   6.96311e-05   8.22553e-09  -1.18439e-05
+psi46@TB1 >>  FCN=9.16364 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+psi46@TB1 >>                      EDM=6.65938e-21    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           8.09927e+00   5.89611e-01   4.92260e-04  -3.33793e-10
+psi46@TB1 >>    2  p1           7.46909e-01   4.40385e-03   3.67673e-06  -4.83135e-08
+psi46@TB1 >>  FCN=2.02715 FROM MIGRAD    STATUS=CONVERGED      59 CALLS          60 TOTAL
+psi46@TB1 >>                      EDM=8.10778e-21    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           4.01781e+00   7.92862e-01   2.68650e-04   3.92597e-10
+psi46@TB1 >>    2  p1           2.04010e-01   1.63412e-02   2.00657e-06   4.53701e-08
+psi46@TB1 >>    3  p2          -1.67273e-04   6.96311e-05   1.24538e-08   7.66668e-06
+psi46@TB1 >>  FCN=19.9879 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+psi46@TB1 >>                      EDM=1.09183e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           6.99321e+00   5.89611e-01   7.07382e-04   6.27792e-11
+psi46@TB1 >>    2  p1           7.04485e-01   4.40386e-03   5.28350e-06   4.03450e-08
+psi46@TB1 >>  FCN=0.533818 FROM MIGRAD    STATUS=CONVERGED      74 CALLS          75 TOTAL
+psi46@TB1 >>                      EDM=5.11008e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.48516e+00   7.92862e-01   1.91230e-04  -2.83027e-10
+psi46@TB1 >>    2  p1           2.07491e-01   1.63412e-02   1.42832e-06   1.94324e-08
+psi46@TB1 >>    3  p2          -1.81818e-04   6.96311e-05   7.77269e-09   3.57091e-06
+psi46@TB1 >>  FCN=1.78238e-23 FROM MIGRAD    STATUS=CONVERGED      31 CALLS          32 TOTAL
+psi46@TB1 >>                      EDM=3.5656e-23    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.20000e+01   5.89611e-01   1.54408e-04   2.58531e-11
+psi46@TB1 >>    2  p1           4.64906e-15   4.40386e-03   1.15329e-06   3.40169e-09
+psi46@TB1 >>  FCN=0.699803 FROM MIGRAD    STATUS=CONVERGED      63 CALLS          64 TOTAL
+psi46@TB1 >>                      EDM=2.95284e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.50180e+00   7.92862e-01   2.01312e-04  -7.63819e-10
+psi46@TB1 >>    2  p1           1.83298e-01   1.63412e-02   1.50362e-06  -8.60200e-08
+psi46@TB1 >>    3  p2          -1.55758e-04   6.96311e-05   8.18246e-09  -1.40093e-05
+psi46@TB1 >>  FCN=17.2242 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+psi46@TB1 >>                      EDM=1.79511e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           5.87430e+00   5.89611e-01   6.59166e-04  -3.09908e-10
+psi46@TB1 >>    2  p1           7.24121e-01   4.40386e-03   4.92337e-06   1.80401e-09
+psi46@TB1 >>  FCN=1.02344 FROM MIGRAD    STATUS=CONVERGED      61 CALLS          62 TOTAL
+psi46@TB1 >>                      EDM=7.92678e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.56147e+00   7.92862e-01   2.19642e-04  -1.19796e-09
+psi46@TB1 >>    2  p1           1.94867e-01   1.63412e-02   1.64052e-06  -1.43809e-07
+psi46@TB1 >>    3  p2          -1.60606e-04   6.96310e-05   8.92750e-09  -2.50585e-05
+psi46@TB1 >>  FCN=1.78238e-23 FROM MIGRAD    STATUS=CONVERGED      31 CALLS          32 TOTAL
+psi46@TB1 >>                      EDM=3.5656e-23    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           1.20000e+01   5.89611e-01   1.54408e-04   2.58531e-11
+psi46@TB1 >>    2  p1           4.64906e-15   4.40386e-03   1.15329e-06   3.40169e-09
+psi46@TB1 >>  FCN=0.749258 FROM MIGRAD    STATUS=CONVERGED      65 CALLS          66 TOTAL
+psi46@TB1 >>                      EDM=2.3711e-20    STRATEGY= 1      ERROR MATRIX ACCURATE
+psi46@TB1 >>   EXT PARAMETER                                   STEP         FIRST
+psi46@TB1 >>   NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE
+psi46@TB1 >>    1  p0           3.39775e+00   7.92862e-01   2.04219e-04   6.80912e-10
+psi46@TB1 >>    2  p1           1.87759e-01   1.63412e-02   1.52533e-06   7.06021e-08
+psi46@TB1 >>    3  p2          -1.55758e-04   6.96311e-05   8.30064e-09   1.05329e-05
+>>> Release Testboard 1 <<<
+:Test 002_Fulltest_p17 finished in TB1
+exit
+:Test  finished in TB0
+:Test 002_Fulltest_p17 finished in TB1
+:Test  finished in TB2
+:Test  finished in TB3
+waiting for client to be closed...
+done

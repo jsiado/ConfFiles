@@ -1,0 +1,95 @@
+#
+#--------LOG from Fri 25 Sep 2015 at 11h:49m:14s ---------
+#
+Subserver is running.
+
+Setting up agente psiAgente ...
+	- Testboard 1 at address DTB_WWXLHF with Module P-B-4-06 reading configuration from defaultParameters 
+Setting up agente highVoltageAgente ...
+Setting up agente watchDogAgente ...
+Setting up agente analysisAgente ...
+
+append /home/silpix5/pxar/data/defaultParameters to dir_list
+append /home/silpix5/pxar/data/defaultParameters to dir_list
+append /home/silpix5/pxar/data/defaultParameters to dir_list
+append /home/silpix5/pxar/data/defaultParameters to dir_list
+Checking whether clients are runnning ...
+using default xterm config parameters
+Starting psiClient ...
+highVoltageAgente: Starting keithleyClient..."xterm  -T 'HighVoltage' +sb -geometry 80x25+1200+1300 -fs 10 -fa 'Mono' -e ..//keithleyClient//keithleyClient.py -d /dev/ttyUSB1 -dir ..//DATA//logfiles/ -ts 1443199754 -iV -150.0" 
+
+Checking subscriptions of the clients ...
+	/psi is answering.
+	/keithley is answering.
+	/el_agente is answering.
+	/analysis is answering.
+----------------
+
+The following testboards with modules were found:
+
+	- Testboard 1 at address DTB_WWXLHF with module P-B-4-06
+
+The following tests will be executed:
+
+	- IV_TB1@17
+	- Pretest@17
+	- Fulltest
+----------------
+
+Test 1/3: IV_TB1@17
+
+Preparing test IV_TB1@17 ...
+Setting up the directory: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//000_IV_p17/
+... with Parameters from: /home/silpix5/pxar/data/defaultParameters
+psiAgente: Opening Testboard 1 ...
+Preparation took 1 seconds (0 min 1 sec)
+
+Executing test IV_TB1@17 ...
+	--> IV-Curve FINISHED
+
+Test took 203 seconds (3 min 23 sec)
+Cleaning up after test IV_TB1@17 ...
+psiAgente: Closing Testboard 1 ...
+----------------
+
+Test 2/3: Pretest@17
+
+Preparing test Pretest@17 ...
+Setting up the directory: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17/
+... with Parameters from: /home/silpix5/pxar/data/defaultParameters
+Preparation took 2 seconds (0 min 2 sec)
+
+Executing test Pretest@17 ...
+
+Test took 143 seconds (2 min 23 sec)
+Cleaning up after test Pretest@17 ...
+----------------
+
+Test 3/3: Fulltest
+
+Preparing test Fulltest ...
+Setting up the directory: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//002_Fulltest_p17/
+... with Parameters from: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17/
+Preparation took 2 seconds (0 min 2 sec)
+
+Executing test Fulltest ...
+
+Test took 6182 seconds (103 min 2 sec)
+Cleaning up after test Fulltest ...
+----------------
+
+Final cleanup after all tests ...
+----------------
+
+Finished all tests. Summary of test durations:
+    IV_TB1@17                         3 min 24 sec
+    Pretest@17                        2 min 25 sec
+    Fulltest                        103 min  4 sec
+  --------------------------------------------------
+    total                           108 min 54 sec
+Press ENTER to terminate the clients. 
+Asking clients to quit ...
+Subsystem connection closed.
+Finishing all processes -_- = -_-....
+----------------
+

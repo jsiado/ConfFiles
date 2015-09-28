@@ -1,0 +1,113 @@
+[11:52:49.732] <TB1>     INFO: *** Welcome to pxar ***
+[11:52:49.732] <TB1>     INFO: *** Today: 2015/09/25
+[11:52:49.732] <TB1>     INFO: readRocDacs: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C0.dat .. /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C15.dat
+[11:52:49.733] <TB1>     INFO: readTbmDacs: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//tbmParameters_C0a.dat .. /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//tbmParameters_C0b.dat
+[11:52:49.733] <TB1>     INFO: readMaskFile: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//defaultMaskFile.dat
+[11:52:49.733] <TB1>     INFO: readTrimFile: /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//trimParameters_C0.dat .. /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//trimParameters_C15.dat
+[11:52:49.807] <TB1>     INFO:         clk: 4
+[11:52:49.807] <TB1>     INFO:         ctr: 4
+[11:52:49.807] <TB1>     INFO:         sda: 19
+[11:52:49.807] <TB1>     INFO:         tin: 9
+[11:52:49.807] <TB1>     INFO:         level: 15
+[11:52:49.807] <TB1>     INFO:         triggerdelay: 0
+[11:52:49.807] <TB1>    QUIET: Instanciating API for pxar v2.5+51~gf8901c9
+[11:52:49.807] <TB1>     INFO: Log level: INFO
+[11:52:49.819] <TB1>    QUIET: Connection to board DTB_WWXLHF opened.
+[11:52:49.822] <TB1>     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    141
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.4
+USB id:      DTB_WWXLHF
+MAC address: 40D85511808D
+Hostname:    pixelDTB141
+Comment:     
+------------------------------------------------------
+[11:52:49.825] <TB1>     INFO: RPC call hashes of host and DTB match: 397073690
+[11:52:51.382] <TB1>     INFO: DUT info: 
+[11:52:51.382] <TB1>     INFO: The DUT currently contains the following objects:
+[11:52:51.382] <TB1>     INFO:  2 TBM Cores tbm08c (2 ON)
+[11:52:51.382] <TB1>     INFO: 	TBM Core alpha (0): 7 registers set
+[11:52:51.382] <TB1>     INFO: 	TBM Core beta  (1): 7 registers set
+[11:52:51.382] <TB1>     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[11:52:51.382] <TB1>     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.382] <TB1>     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[11:52:51.783] <TB1>     INFO: enter 'restricted' command line mode
+[11:52:51.783] <TB1>     INFO: enter test to run
+[11:52:51.783] <TB1>     INFO:   test: Pretest no parameter change
+[11:52:51.783] <TB1>     INFO:   running: pretest
+[11:52:51.789] <TB1>     INFO: ######################################################################
+[11:52:51.789] <TB1>     INFO: PixTestPretest::doTest()
+[11:52:51.789] <TB1>     INFO: ######################################################################
+[11:52:51.790] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:52:51.790] <TB1>     INFO:    PixTestPretest::programROC() 
+[11:52:51.790] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:53:09.808] <TB1>     INFO: PixTestPretest::programROC() done: ROCs are all programmable
+[11:53:09.808] <TB1>     INFO: IA differences per ROC:  13.7 12.1 13.7 13.7 12.1 12.9 13.7 14.5 14.5 14.5 14.5 15.3 14.5 12.9 13.7 13.7
+[11:53:09.869] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:53:09.869] <TB1>     INFO:    PixTestPretest::setVana() target Ia = 24 mA/ROC
+[11:53:09.869] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:53:15.040] <TB1>     INFO: PixTestPretest::setVana() done, Module Ia 394.7 mA = 24.6687 mA/ROC
+[11:53:15.042] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:53:15.042] <TB1>     INFO:    PixTestPretest::findTiming() 
+[11:53:15.042] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:53:15.042] <TB1>     INFO: PixTestCmd::init()
+[11:53:15.636] <TB1>  WARNING: Not unmasking DUT, not setting Calibrate bits!
+[11:54:54.889] <TB1>     INFO: TBM phases:  160MHz: 7, 400MHz: 3, TBM delays: ROC(0/1):5, header/trailer: 1, token: 1
+[11:54:54.889] <TB1>     INFO: (success/tries = 100/100)
+[11:54:54.891] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:54:54.891] <TB1>     INFO:    PixTestPretest::findWorkingPixel()
+[11:54:54.891] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:54:55.030] <TB1>     INFO: Expecting 231680 events.
+[11:54:59.715] <TB1>    ERROR: <datapipe.cc/CheckEventValidity:L480> Channel 0 Number of ROCs (1) != Token Chain Length (8)
+[11:54:59.718] <TB1>    ERROR: <datapipe.cc/CheckEventID:L453> Channel 0 Event ID mismatch:  local ID (21) !=  TBM ID (2)
+[11:55:02.118] <TB1>     INFO: 231680 events read in total (6372ms).
+[11:55:02.122] <TB1>     INFO: Test took 7228ms.
+[11:55:02.522] <TB1>     INFO: Found working pixel in all ROCs: col/row = 12/22
+[11:55:02.553] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:55:02.553] <TB1>     INFO:    PixTestPretest::setVthrCompCalDel()
+[11:55:02.553] <TB1>     INFO:    ----------------------------------------------------------------------
+[11:55:02.689] <TB1>     INFO: Expecting 231680 events.
+[11:55:09.768] <TB1>     INFO: 231680 events read in total (6363ms).
+[11:55:09.773] <TB1>     INFO: Test took 7216ms.
+[11:55:10.182] <TB1>     INFO: PixTestPretest::setVthrCompCalDel() done
+[11:55:10.182] <TB1>     INFO: CalDel:      138   143   138   131   142   147   128   133   125   140   143   143   123   139   142   148
+[11:55:10.182] <TB1>     INFO: VthrComp:     51    51    51    51    51    51    51    51    51    51    51    51    51    51    51    51
+[11:55:10.184] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C0.dat
+[11:55:10.184] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C1.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C2.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C3.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C4.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C5.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C6.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C7.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C8.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C9.dat
+[11:55:10.185] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C10.dat
+[11:55:10.186] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C11.dat
+[11:55:10.186] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C12.dat
+[11:55:10.186] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C13.dat
+[11:55:10.186] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C14.dat
+[11:55:10.186] <TB1>     INFO: write dac parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//dacParameters_C15.dat
+[11:55:10.186] <TB1>     INFO: write tbm parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//tbmParameters_C0a.dat
+[11:55:10.186] <TB1>     INFO: write tbm parameters into /home/silpix5/elComandante/DATA/P-B-4-06_Fulltest_2015-09-25_11h49m_1443199754//001_Pretest_p17//tbmParameters_C0b.dat
+[11:55:10.186] <TB1>     INFO: PixTestPretest::doTest() done, duration: 138 seconds
+[11:55:10.243] <TB1>     INFO: enter test to run
+[11:55:10.243] <TB1>     INFO:   test:  no parameter change
+[11:55:10.461] <TB1>    QUIET: Connection to board 141 closed.
+[11:55:10.461] <TB1>     INFO: pXar: this is the end, my friend
