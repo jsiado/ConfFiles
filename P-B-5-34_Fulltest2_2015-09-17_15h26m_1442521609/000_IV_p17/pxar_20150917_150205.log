@@ -1,0 +1,88 @@
+[15:00:41.194]     INFO: *** Welcome to pxar ***
+[15:00:41.194]     INFO: *** Today: 2015/09/17
+[15:00:41.194]     INFO: readRocDacs: P-B-5-34//dacParameters_C0.dat .. P-B-5-34//dacParameters_C15.dat
+[15:00:41.194]     INFO: readTbmDacs: P-B-5-34//tbmParameters_C0a.dat .. P-B-5-34//tbmParameters_C0b.dat
+[15:00:41.195]     INFO: readMaskFile: P-B-5-34//defaultMaskFile.dat
+[15:00:41.195]     INFO: readTrimFile: P-B-5-34//trimParameters_C0.dat .. P-B-5-34//trimParameters_C15.dat
+[15:00:41.272]     INFO:         clk: 4
+[15:00:41.272]     INFO:         ctr: 4
+[15:00:41.272]     INFO:         sda: 19
+[15:00:41.272]     INFO:         tin: 9
+[15:00:41.272]     INFO:         level: 15
+[15:00:41.272]     INFO:         triggerdelay: 0
+[15:00:41.272]    QUIET: Instanciating API for pxar v2.5+51~gf8901c9
+[15:00:41.272]     INFO: Log level: INFO
+[15:00:41.290]    QUIET: Connection to board DTB_WRE7QJ opened.
+[15:00:41.293]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    24
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.4
+USB id:      DTB_WRE7QJ
+MAC address: 40D855118018
+Hostname:    pixelDTB024
+Comment:     
+------------------------------------------------------
+[15:00:41.296]     INFO: RPC call hashes of host and DTB match: 397073690
+[15:00:42.851]     INFO: DUT info: 
+[15:00:42.852]     INFO: The DUT currently contains the following objects:
+[15:00:42.852]     INFO:  2 TBM Cores tbm08b (2 ON)
+[15:00:42.852]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:00:42.852]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:00:42.852]     INFO: 16 ROCs psi46digv2.1 (16 ON) with 4160 pixelConfigs
+[15:00:42.852]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:42.852]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:00:43.403]     INFO: PixTestCmd::init()
+[15:00:43.430]     INFO: readGainPedestalParameters P-B-5-34//phCalibrationFitErr_C0.dat .. P-B-5-34//phCalibrationFitErr_C15.dat
+[15:00:43.430]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open P-B-5-34//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:00:43.461]     INFO: readReadbackCal: P-B-5-34//readbackCal_C0.dat .. P-B-5-34//readbackCal_C15.dat
+[15:00:43.461]     INFO: readGainPedestalParameters P-B-5-34//phCalibrationFitErr_C0.dat .. P-B-5-34//phCalibrationFitErr_C15.dat
+[15:00:43.462]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open P-B-5-34//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:00:43.483]     INFO: readGainPedestalParameters P-B-5-34//phCalibrationFitErr_C0.dat .. P-B-5-34//phCalibrationFitErr_C15.dat
+[15:00:43.483]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open P-B-5-34//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:01:19.536]     INFO: Starting IV curve measurement...
+[15:01:19.536]     INFO: Make sure the Keithley2410 is using the following RS232 settings:
+[15:01:19.536]     INFO: 	|Baud Rate: 57600
+[15:01:19.536]     INFO: 	|Bits: 8
+[15:01:19.537]     INFO: 	|Parity: ODD
+[15:01:19.537]     INFO: 	|Terminator: <CR>+<LF>
+[15:01:19.537]     INFO: 	|Control Flow: XON-XOFF
+[15:01:19.537]     INFO: [RS232] Opening com port: /dev/ttyUSB0 with baud: 57600
+[15:01:23.187]     INFO: V = -0.000000 (meas:   +0.00) I = -2.46e-01 uA 2015-09-17 20:01:23.187322000Z
+[15:01:24.782]     INFO: V = -10.000000 (meas:  -10.00) I = -7.38e-01 uA 2015-09-17 20:01:24.782281000Z
+[15:01:29.386]     INFO: V = -20.000000 (meas:  -20.00) I = -9.87e-01 uA 2015-09-17 20:01:29.386262000Z
+[15:01:30.979]     INFO: V = -30.000000 (meas:  -30.00) I = -1.18e+00 uA 2015-09-17 20:01:30.979240001Z
+[15:01:32.571]     INFO: V = -40.000000 (meas:  -40.00) I = -1.34e+00 uA 2015-09-17 20:01:32.571273000Z
+[15:01:34.166]     INFO: V = -50.000000 (meas:  -50.00) I = -1.49e+00 uA 2015-09-17 20:01:34.166254001Z
+[15:01:35.763]     INFO: V = -60.000000 (meas:  -60.00) I = -1.63e+00 uA 2015-09-17 20:01:35.763241001Z
+[15:01:37.359]     INFO: V = -70.000000 (meas:  -70.00) I = -1.77e+00 uA 2015-09-17 20:01:37.359241000Z
+[15:01:38.956]     INFO: V = -80.000000 (meas:  -80.00) I = -1.94e+00 uA 2015-09-17 20:01:38.956200000Z
+[15:01:40.552]     INFO: V = -90.000000 (meas:  -90.00) I = -2.20e+00 uA 2015-09-17 20:01:40.552183000Z
+[15:01:42.149]     INFO: V = -100.000000 (meas: -100.00) I = -2.53e+00 uA 2015-09-17 20:01:42.149168000Z
+[15:01:43.746]     INFO: V = -110.000000 (meas: -110.00) I = -2.98e+00 uA 2015-09-17 20:01:43.746190000Z
+[15:01:45.344]     INFO: V = -120.000000 (meas: -120.00) I = -3.53e+00 uA 2015-09-17 20:01:45.344160000Z
+[15:01:46.940]     INFO: V = -130.000000 (meas: -130.00) I = -4.06e+00 uA 2015-09-17 20:01:46.940147001Z
+[15:01:48.535]     INFO: V = -140.000000 (meas: -140.00) I = -4.53e+00 uA 2015-09-17 20:01:48.535125000Z
+[15:01:50.131]     INFO: V = -150.000000 (meas: -150.00) I = -4.98e+00 uA 2015-09-17 20:01:50.131147000Z
+[15:01:51.729]     INFO: V = -160.000000 (meas: -160.00) I = -5.44e+00 uA 2015-09-17 20:01:51.729118000Z
+[15:01:53.329]     INFO: V = -170.000000 (meas: -170.00) I = -5.92e+00 uA 2015-09-17 20:01:53.329094000Z
+[15:01:54.924]     INFO: V = -180.000000 (meas: -180.00) I = -6.39e+00 uA 2015-09-17 20:01:54.924094000Z
+[15:01:56.520]     INFO: V = -190.000000 (meas: -190.00) I = -6.84e+00 uA 2015-09-17 20:01:56.520093001Z
+[15:01:58.164]     INFO: V = -200.000000 (meas: -200.00) I = -7.31e+00 uA 2015-09-17 20:01:58.164100000Z
+[15:01:58.318]     INFO: PixTestIV::doTest() done 
+[15:02:05.402]    QUIET: Connection to board 24 closed.

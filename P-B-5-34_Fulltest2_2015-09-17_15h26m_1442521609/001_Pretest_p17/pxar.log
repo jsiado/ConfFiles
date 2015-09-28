@@ -1,0 +1,58 @@
+[15:18:09.519]     INFO: *** Welcome to pxar ***
+[15:18:09.519]     INFO: *** Today: 2015/09/17
+[15:18:09.519]     INFO: readRocDacs: ./data/P-B-5-34//dacParameters_C0.dat .. ./data/P-B-5-34//dacParameters_C15.dat
+[15:18:09.520]     INFO: readTbmDacs: ./data/P-B-5-34//tbmParameters_C0a.dat .. ./data/P-B-5-34//tbmParameters_C0b.dat
+[15:18:09.520]     INFO: readMaskFile: ./data/P-B-5-34//defaultMaskFile.dat
+[15:18:09.520]     INFO: readTrimFile: ./data/P-B-5-34//trimParameters_C0.dat .. ./data/P-B-5-34//trimParameters_C15.dat
+[15:18:09.598]     INFO:         clk: 4
+[15:18:09.598]     INFO:         ctr: 4
+[15:18:09.598]     INFO:         sda: 19
+[15:18:09.598]     INFO:         tin: 9
+[15:18:09.598]     INFO:         level: 15
+[15:18:09.598]     INFO:         triggerdelay: 0
+[15:18:09.598]    QUIET: Instanciating API for pxar v2.5+51~gf8901c9
+[15:18:09.598]     INFO: Log level: INFO
+[15:18:09.611]    QUIET: Connection to board DTB_WWXLHF opened.
+[15:18:09.614]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    141
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.4
+USB id:      DTB_WWXLHF
+MAC address: 40D85511808D
+Hostname:    pixelDTB141
+Comment:     
+------------------------------------------------------
+[15:18:09.617]     INFO: RPC call hashes of host and DTB match: 397073690
+[15:18:11.171]     INFO: DUT info: 
+[15:18:11.171]     INFO: The DUT currently contains the following objects:
+[15:18:11.171]     INFO:  2 TBM Cores tbm08b (2 ON)
+[15:18:11.171]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:18:11.171]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:18:11.171]     INFO: 16 ROCs psi46digv2.1 (16 ON) with 4160 pixelConfigs
+[15:18:11.171]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.171]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.172]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.172]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.172]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:18:11.725]     INFO: PixTestCmd::init()
+[15:18:11.749]     INFO: readGainPedestalParameters ./data/P-B-5-34//phCalibrationFitErr_C0.dat .. ./data/P-B-5-34//phCalibrationFitErr_C15.dat
+[15:18:11.749]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open ./data/P-B-5-34//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:18:11.779]     INFO: readReadbackCal: ./data/P-B-5-34//readbackCal_C0.dat .. ./data/P-B-5-34//readbackCal_C15.dat
+[15:18:11.779]     INFO: readGainPedestalParameters ./data/P-B-5-34//phCalibrationFitErr_C0.dat .. ./data/P-B-5-34//phCalibrationFitErr_C15.dat
+[15:18:11.779]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open ./data/P-B-5-34//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:18:11.803]     INFO: readGainPedestalParameters ./data/P-B-5-34//phCalibrationFitErr_C0.dat .. ./data/P-B-5-34//phCalibrationFitErr_C15.dat
+[15:18:11.803]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L983> cannot open ./data/P-B-5-34//phCalibrationFitErr_C0.dat for reading PH calibration constants
+[15:18:13.568]    QUIET: Connection to board 141 closed.

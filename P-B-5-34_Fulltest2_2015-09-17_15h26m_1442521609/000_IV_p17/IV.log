@@ -1,0 +1,54 @@
+[15:26:57.288]     INFO: *** Welcome to pxar ***
+[15:26:57.288]     INFO: *** Today: 2015/09/17
+[15:26:57.288]     INFO: readRocDacs: /home/silpix5/elComandante/DATA/P-B-5-34_Fulltest_2015-09-17_15h26m_1442521609//000_IV_p17//dacParameters_C0.dat .. /home/silpix5/elComandante/DATA/P-B-5-34_Fulltest_2015-09-17_15h26m_1442521609//000_IV_p17//dacParameters_C15.dat
+[15:26:57.289]     INFO: readTbmDacs: /home/silpix5/elComandante/DATA/P-B-5-34_Fulltest_2015-09-17_15h26m_1442521609//000_IV_p17//tbmParameters_C0a.dat .. /home/silpix5/elComandante/DATA/P-B-5-34_Fulltest_2015-09-17_15h26m_1442521609//000_IV_p17//tbmParameters_C0b.dat
+[15:26:57.289]     INFO: readMaskFile: /home/silpix5/elComandante/DATA/P-B-5-34_Fulltest_2015-09-17_15h26m_1442521609//000_IV_p17//defaultMaskFile.dat
+[15:26:57.289]     INFO: readTrimFile: /home/silpix5/elComandante/DATA/P-B-5-34_Fulltest_2015-09-17_15h26m_1442521609//000_IV_p17//trimParameters_C0.dat .. /home/silpix5/elComandante/DATA/P-B-5-34_Fulltest_2015-09-17_15h26m_1442521609//000_IV_p17//trimParameters_C15.dat
+[15:26:57.363]     INFO:         clk: 4
+[15:26:57.363]     INFO:         ctr: 4
+[15:26:57.363]     INFO:         sda: 19
+[15:26:57.363]     INFO:         tin: 9
+[15:26:57.363]     INFO:         level: 15
+[15:26:57.363]     INFO:         triggerdelay: 0
+[15:26:57.363]    QUIET: Instanciating API for pxar v2.5+51~gf8901c9
+[15:26:57.363]     INFO: Log level: INFO
+[15:26:57.375]    QUIET: Connection to board DTB_WWXLHF opened.
+[15:26:57.378]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    141
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.4
+USB id:      DTB_WWXLHF
+MAC address: 40D85511808D
+Hostname:    pixelDTB141
+Comment:     
+------------------------------------------------------
+[15:26:57.381]     INFO: RPC call hashes of host and DTB match: 397073690
+[15:26:58.938]     INFO: DUT info: 
+[15:26:58.938]     INFO: The DUT currently contains the following objects:
+[15:26:58.938]     INFO:  2 TBM Cores tbm08b (2 ON)
+[15:26:58.938]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:26:58.938]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:26:58.938]     INFO: 16 ROCs psi46digv2.1 (16 ON) with 4160 pixelConfigs
+[15:26:58.938]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.938]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.938]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.938]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.938]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.938]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:58.939]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:26:59.340]     INFO: enter 'restricted' command line mode
+[15:26:59.340]     INFO: enter test to run
+[15:31:29.973]     INFO:   test: exit no parameter change
+[15:31:30.061]    QUIET: Connection to board 141 closed.
+[15:31:30.062]     INFO: pXar: this is the end, my friend
